@@ -4,6 +4,8 @@
 #
 #-------------------------------------------------
 
+
+## MAC
 TARGET = tests
 TEMPLATE = app
 
@@ -16,6 +18,10 @@ SOURCES += main.cpp
 INCLUDEPATH += /opt/local/include
 LIBS += -L/opt/local/lib
 LIBS += `/opt/local/bin/pkg-config --cflags --libs opencv`
+
+QMAKE_MACOSX_DEPLOYMENT_TARGET = 10.9
+
+## WIN
 
 #INCLUDEPATH += C:\\OpenCV-2.3.1\\install\\include
 #LIBS += -LC:\\OpenCV-2.3.1\\install\\lib \
@@ -30,4 +36,5 @@ LIBS += `/opt/local/bin/pkg-config --cflags --libs opencv`
 
 #FORMS    +=
 
-QMAKE_MACOSX_DEPLOYMENT_TARGET = 10.9
+## LINUX
+
