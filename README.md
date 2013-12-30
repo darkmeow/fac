@@ -2,10 +2,11 @@
 
 PDI 2013-2 GRUPO 4
 
+##Clonar Proyecto
+
 ```
-$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
+$ git clone https://github.com/darkmeow/fac
+
 ```
 
 If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.
