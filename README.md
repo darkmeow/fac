@@ -11,5 +11,5 @@ $ git clone https://github.com/darkmeow/fac.git
 
 Importante!
 
-Para poder compilar este proyecto en QtCreator, en el archivo.pro debe estar las librerías bien definidas.
+Para poder compilar este proyecto en QtCreator, el archivo.pro debe indicar rutas de las librerías.
 
