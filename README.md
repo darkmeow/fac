@@ -1,4 +1,4 @@
-### Welcome to Facial Access Control Project
+# Facial Access Control
 
 PDI 2013-2 GRUPO 4
 
