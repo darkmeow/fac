@@ -23,16 +23,16 @@
     float EYE_SH = 0.28f;
 
   VideoCapture cap;
-     //   Mat imagen = imread("../images.jpg");
+     //   Mat imagen = imread("img/images.jpg");
 
         CascadeClassifier detector, eyes_detector;
 
-  if(!detector.load("../haarcascade_frontalface_alt2.xml"))
+  if(!detector.load("clasificadores/haarcascade_frontalface_alt2.xml"))
   cout << "No se puede abrir clasificador." << endl;
 
 
 
-  if(!eyes_detector.load("../haarcascade_eye_tree_eyeglasses.xml"))
+  if(!eyes_detector.load("clasificadores/haarcascade_eye_tree_eyeglasses.xml"))
 cout << "No se puede abrir clasificador para los ojos." << endl;
 
   if(!cap.open(0))
