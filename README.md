@@ -5,7 +5,7 @@ PDI 2013-2 GRUPO 4
 ##Clonar Proyecto
 
 ```
-$ git clone https://github.com/darkmeow/fac
+$ git clone https://github.com/darkmeow/fac.git
 
 ```
 
