@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/">
+        <file>imag/error_pass.png</file>
+        <file>imag/error_face.png</file>
+        <file>imag/menu_cajero.png</file>
+        <file>imag/password.png</file>
+        <file>imag/welcome.png</file>
+        <file>imag/card1.jpg</file>
+        <file>imag/button2.ico</file>
+        <file>imag/cancel_circular.jpg</file>
+        <file>imag/button.png</file>
+        <file>imag/clear.png</file>
+        <file>imag/ok.png</file>
+        <file>imag/cancel.png</file>
+        <file>imag/9.png</file>
+        <file>imag/8.png</file>
+        <file>imag/7.png</file>
+        <file>imag/6.png</file>
+        <file>imag/5.png</file>
+        <file>imag/4.png</file>
+        <file>imag/3.png</file>
+        <file>imag/2.png</file>
+        <file>imag/0.png</file>
+        <file>imag/1.png</file>
+        <file>xml/fac_model_data.xml</file>
+        <file>xml/haarcascade_frontalface_default.xml</file>
+    </qresource>
+</RCC>
